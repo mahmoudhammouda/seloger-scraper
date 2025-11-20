@@ -69,6 +69,8 @@ web_modules/
 .env
 .env.*
 !.env.example
+src/config.json
+src/output/
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache

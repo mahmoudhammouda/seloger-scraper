@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "lib": ["ES2022", "DOM", "esnext.disposable"],
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "types": ["node"],
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "outDir": ".",
+    "downlevelIteration": true
+  },
+  "files": ["scraper.ts"]
+}
